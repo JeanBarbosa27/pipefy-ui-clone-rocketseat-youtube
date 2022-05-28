@@ -21,7 +21,10 @@ refresh when changes were done in the code.
 ## Roadmap
 After following the whole video, my goal is implementing some other features in this project like:
 
-- [ ] Deploy on Heroku;
+- [x] Drop a card in a empty list;
+- [x] Add list scrolling;
+- [ ] Deploy on Github Pages;
+- [ ] Add responsivity;
 - [ ] Adapt the project to use TypeScript;
 - [ ] Open card details in a modal;
 - [ ] Cards CRUD;
