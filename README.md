@@ -10,10 +10,10 @@ practicing purposes.
 - [Immer](https://github.com/immerjs/immer)
 
 ## Running locally
-This is a React project, so to run it in your local machine you'll need to have Node and NPM or Yarn installed. With
+This is a React project, so to run it in your local machine you'll need to have Node and Yarn installed. With
 this set, open your favorite shell and run the commands below:
-1. `npm install` or `yarn`, to install the dependencies;
-2. `npm run start` or `yarn start`, to initialize the server.
+1. `yarn`, to install the dependencies;
+2. `yarn start`, to initialize the server.
 
 After that the application will be available at [http://localhost:3000](http://localhost:3000) and it will
 refresh when changes were done in the code.
@@ -23,7 +23,7 @@ After following the whole video, my goal is implementing some other features in 
 
 - [x] Drop a card in a empty list;
 - [x] Add list scrolling;
-- [ ] Deploy on Github Pages;
+- [X] Deploy on Github Pages;
 - [ ] Add responsivity;
 - [ ] Adapt the project to use TypeScript;
 - [ ] Open card details in a modal;
@@ -36,3 +36,9 @@ After following the whole video, my goal is implementing some other features in 
 - [ ] Connecting a GraphQL Client;
 - [ ] Esquema de criação e login de usuários
 - [ ] Criar um avatar default, caso o usuário logado não tenha imagem cadastrada
+
+## Deploy
+This app was deployed using Github Pages, but it's using [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+to checkpoint project's [semantic versioning](https://semver.org/). After guaranting the correct version due to the
+changes that were made, just run `yarn deploy` to deploy the changes to Github Pages and then it will be available at
+[http://jb9dev.github.io/pipefy-ui-clone-rocketseat-youtube](http://jb9dev.github.io/pipefy-ui-clone-rocketseat-youtube).
