@@ -33,6 +33,25 @@ export const Container = styled.section`
   }
 
   ul {
+    height: calc(100% - 70px);
     margin-top: 30px;
+    padding-right: 10px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+
+      &-track, &-thumb {
+        border-radius: 10px;
+      }
+
+      &-track {
+        background-color: #cccccc;
+      }
+
+      &-thumb {
+        background-color: #7159c1;
+      }
+    }
   }
 `;
