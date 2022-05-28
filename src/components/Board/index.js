@@ -16,7 +16,7 @@ export default function Board() {
       const dragged = draft[fromListIndex].cards[fromCardIndex];
       draft[fromListIndex].cards.splice(fromCardIndex, 1);
       draft[toListIndex].cards.splice(toCardIndex, 0, dragged);
-    }))
+    }));
   }
 
   return (
