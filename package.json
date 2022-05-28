@@ -1,5 +1,6 @@
 {
   "name": "pipefy-ui-clone-rocketseat",
+  "description": "This project was created to following a Rocketseat video that 'clones' Pipefy interface.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
