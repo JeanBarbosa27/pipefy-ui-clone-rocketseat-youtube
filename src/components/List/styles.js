@@ -1,3 +1,38 @@
 import styled from "styled-components";
 
-export const Container = styled.ul``;
+export const Container = styled.section`
+  height: 100%;
+  padding: 0 15px;
+  flex: 0 0 320px;
+  opacity: ${({done}) => done ? 0.6 : 1};
+
+  &:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  header {
+    display: flex;
+    height: 42px;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      padding: 0 10px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    button {
+      width: 42px;
+      height: 42px;
+      background-color: #3b5bfd;
+      border: 0;
+      border-radius: 18px;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    margin-top: 30px;
+  }
+`;
