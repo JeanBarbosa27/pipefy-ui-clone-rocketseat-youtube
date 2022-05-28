@@ -11,9 +11,12 @@ practicing purposes.
 
 ## Running locally
 This is a React project, so to run it in your local machine you'll need to have Node and NPM or Yarn installed. With
-this set, just run in your favorite shell the `npm install` or `yarn` command, to install the dependencies and the
-`npm run start` or `yarn start`, to initialize the server, which will make the application available at
-[http://localhost:3000](http://localhost:3000) (the application will refresh when changes were done).
+this set, open your favorite shell and run the commands below:
+1. `npm install` or `yarn`, to install the dependencies;
+2. `npm run start` or `yarn start`, to initialize the server.
+
+After that the application will be available at [http://localhost:3000](http://localhost:3000) and it will
+refresh when changes were done in the code.
 
 ## Roadmap
 After following the whole video, my goal is implementing some other features in this project like:
