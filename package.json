@@ -2,7 +2,8 @@
   "name": "pipefy-ui-clone-rocketseat",
   "description": "This project was created to following a Rocketseat video that 'clones' Pipefy interface.",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
+  "homepage": "http://jb9dev.github.io/pipefy-ui-clone-rocketseat-youtube",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
