@@ -41,4 +41,4 @@ After following the whole video, my goal is implementing some other features in 
 This app was deployed using Github Pages, but it's using [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 to checkpoint project's [semantic versioning](https://semver.org/). After guaranting the correct version due to the
 changes that were made, just run `yarn deploy` to deploy the changes to Github Pages and then it will be available at
-[http://jb9dev.github.io/pipefy-ui-clone-rocketseat-youtube](http://jb9dev.github.io/pipefy-ui-clone-rocketseat-youtube).
+[http://JeanBarbosa27.github.io/pipefy-ui-clone-rocketseat-youtube](http://JeanBarbosa27.github.io/pipefy-ui-clone-rocketseat-youtube).
